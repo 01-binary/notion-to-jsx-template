@@ -34,15 +34,14 @@
 ### 3. 환경 변수 설정
 
 ```bash
-cp .env.local.example .env.local
+cp .env.example .env
 ```
 
-`.env.local` 파일을 열고 값을 입력하세요:
+`.env` 파일을 열고 값을 입력하세요:
 
 ```
 NOTION_TOKEN=your_notion_token_here
 NOTION_DATABASE_ID=your_database_id_here
-BLOG_URL=http://localhost:3000
 ```
 
 ### 4. 설치 및 실행
@@ -64,7 +63,7 @@ export const siteConfig = {
   author: 'Your Name',
   homeTitle: 'My Blog',
   seoDefaultDesc: 'A blog powered by Notion',
-  url: 'https://example.com',
+  url: 'https://your-domain.com',
   github: '',
   mail: '',
 };
@@ -92,9 +91,9 @@ export const siteConfig = {
 
 ## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-repo/notion-to-jsx-template)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/01-binary/notion-to-jsx-template)
 
-Vercel에 배포할 때 Environment Variables에 `NOTION_TOKEN`, `NOTION_DATABASE_ID`, `BLOG_URL`을 설정하세요.
+Vercel에 배포할 때 Environment Variables에 `NOTION_TOKEN`, `NOTION_DATABASE_ID`를 설정하세요.
 
 ## Project Structure
 
