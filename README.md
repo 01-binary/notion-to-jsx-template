@@ -20,7 +20,7 @@ A Notion CMS blog template built with [notion-to-jsx](https://www.npmjs.com/pack
 
 #### 1. Prepare Notion Database
 
-Create a Notion Database with the following properties:
+Create a Notion Database with the following properties, or [duplicate this template](https://likeable-eggnog-5b5.notion.site/3019c6bf2b1780d19126df1136126616?v=3019c6bf2b178094a9d1000c960bac28&pvs=73):
 
 | Property    | Type      | Description              |
 | ----------- | --------- | ------------------------ |
@@ -119,7 +119,7 @@ Set `NOTION_TOKEN` and `NOTION_DATABASE_ID` in Vercel Environment Variables.
 
 #### 1. Notion Database 준비
 
-아래 속성을 가진 Notion Database를 생성하세요:
+아래 속성을 가진 Notion Database를 생성하거나, [이 템플릿을 복제](https://likeable-eggnog-5b5.notion.site/3019c6bf2b1780d19126df1136126616?v=3019c6bf2b178094a9d1000c960bac28&pvs=73)하세요:
 
 | Property    | Type      | Description        |
 | ----------- | --------- | ------------------ |
