@@ -6,7 +6,7 @@
 
 ## English
 
-A Notion CMS blog template built with [notion-to-jsx](https://www.npmjs.com/package/notion-to-jsx) and [notion-to-utils](https://www.npmjs.com/package/notion-to-utils).
+A Notion CMS blog template built with [notion-to-jsx](https://www.npmjs.com/package/notion-to-jsx) and [notion-to-utils](https://www.npmjs.com/package/notion-to-utils). See the [documentation](https://notion-to-jsx-docs.vercel.app/) for library details.
 
 ### Tech Stack
 
@@ -105,7 +105,7 @@ Set `NOTION_TOKEN` and `NOTION_DATABASE_ID` in Vercel Environment Variables.
 
 ## 한국어
 
-[notion-to-jsx](https://www.npmjs.com/package/notion-to-jsx)와 [notion-to-utils](https://www.npmjs.com/package/notion-to-utils)를 활용한 Notion CMS 블로그 템플릿.
+[notion-to-jsx](https://www.npmjs.com/package/notion-to-jsx)와 [notion-to-utils](https://www.npmjs.com/package/notion-to-utils)를 활용한 Notion CMS 블로그 템플릿. 라이브러리에 대한 자세한 내용은 [문서](https://notion-to-jsx-docs.vercel.app/)를 참고하세요.
 
 ### 기술 스택
 
