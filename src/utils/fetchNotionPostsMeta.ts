@@ -35,7 +35,7 @@ export async function fetchNotionPostsMeta(databaseId: string): Promise<GetPageR
 export async function getCachedPostsMeta(): Promise<PostMeta[]> {
   'use cache';
   cacheTag('posts');
-  cacheLife('minutes');
+  cacheLife('hoursForever');
 
   const response = await notionClient.dataSources.query({
     data_source_id: env.notionDatabaseId,
